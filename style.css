@@ -1,0 +1,273 @@
+*
+{	
+	font-family: sans-serif,impact,arial,"Arial Black",Verdana;
+	padding:0;
+	margin:0;
+}
+
+.download
+{
+	height: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/* tout */
+.total 
+{
+	display: flex;	
+}
+
+/*titre principal*/
+.titre_centrer 
+{	
+	margin: 50PX; 
+}
+
+/* souligner jaune*/
+.souligne-jaune
+{
+	text-decoration: underline yellow;
+}
+
+/*contenu du cv */
+.contenu
+{	
+	margin: 50px;
+}
+
+/*contenu du cv */
+.contenu-form
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+}
+
+/*date plus texte*/
+.ligne-cv
+{  
+	display:flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
+/*esapce date cv */
+.ligne-cv-date
+{
+	width: 40%;
+}
+
+/*icone circle*/
+.icone-date
+{
+	display: flex;
+}
+
+/*icone circle*/
+.icone-date i
+{
+	padding-right: 10px;
+}
+
+/*espace entre titre et icone*/
+.titre-padding
+{
+	padding-left: 15px;
+}
+
+.ligne-cv-contenu
+{
+	width: 80%;
+	margin-bottom: 50px;	 	
+}
+
+.ligne-cv-contenu > h2
+{
+	margin-bottom: 10px;
+}
+
+.ligne-cv-contenu > h3
+{
+	margin-bottom: 10px;
+}
+
+.contenu-recommandation
+{	 
+	display:flex;
+	justify-content: space-around;
+	align-items: flex-end;	 
+}
+
+.contenu-recommandation > div
+{	
+ 	padding-bottom: 30px;
+}
+
+/*loisir plus icone */
+.colonebas
+{		
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.bandeau 
+{	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #00acee; 
+	width: 45%;
+}
+
+.icone_espace
+{
+ 	margin:2.5px;
+	display: flex; 
+	justify-content: space-around;
+}
+
+.altere
+{
+	border-radius: 60px;
+    box-shadow: 0px 0px 5px #000000;
+    padding: 0.5em 0.6em;
+}
+
+.running
+{
+	border-radius: 60px;
+    box-shadow: 0px 0px 5px #000000;
+    padding: 0.5em 0.6em;
+}
+
+.ping-pong
+{
+	border-radius: 60px;
+    box-shadow: 0px 0px 5px #000000;
+    padding: 0.5em 0.6em;
+}
+
+span.mot_jaune 
+{
+	color: #FFD700;
+}
+
+strong 
+{
+	font-weight: bold;
+}
+
+.propos 
+{
+	padding-right: 35px;
+	padding-left: 40px;
+	padding-top: 25PX;
+	font-size: 1.0em
+}
+
+.P.blocktext
+{
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.shadow
+{	
+	text-shadow: 0px 0px 9px #777;
+	color: black;
+	background-color: #FFD700;
+	text-align: center;
+	opacity: 6;
+}
+
+.souligne
+{
+	border-bottom:  1px solid #FFD700; 
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+}
+
+.contact-gauche
+{
+	padding-top: 25PX;
+	padding-bottom: 20px;
+}
+
+.detail-contact
+{
+	padding: 4PX;
+	padding-left: 40px;
+}
+ 
+@media all and (max-width: 800px)
+{
+
+	.total
+	{
+		flex-direction: column;
+	}
+	
+	.bandeau
+	{
+		width: 100%;
+	}
+
+	.contenu-recommandation
+	{	
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+@media all and (max-width: 600px) 
+{
+	.ligne-cv
+	{
+		flex-direction: column;
+	}
+
+	.ligne-cv-date
+	{
+		width: 100%;
+	}
+
+	.contenu-recommandation
+	{	
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.ligne-cv-contenu
+	{
+		width: 100%
+	}
+	
+	.contenu
+	{
+		margin: 10px;
+	}
+}
+	/* iphone 5e ou Se */
+@media all and (max-width: 320px) 
+{
+
+	.titre-padding
+	{
+		margin-left: 5px;
+		padding-left: 5px;
+	}
+
+	
+	
+}
+
+
+
